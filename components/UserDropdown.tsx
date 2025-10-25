@@ -17,11 +17,7 @@ const UserDropdown = () => {
     const router = useRouter();
 
     const handleSignOut= async()=> {
-<<<<<<< HEAD
         router.push("/signin");
-=======
-            router.push("/signin");
->>>>>>> 79faee37baa5d459c351cdb60fc2e40c329e24f0
     }
 
     const user = {name: 'Jack', email: 'sairaasif822@gmail.com'};
@@ -63,17 +59,10 @@ const UserDropdown = () => {
                     </div>
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator className="bg-gray-600"/>
-<<<<<<< HEAD
                 <DropdownMenuItem onClick={handleSignOut} className="text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer">
                     <LogOut className="h-4 w-4 mr-2 hidden sm:block"/>
                     LogOut
                 </DropdownMenuItem>
-=======
-                    <DropdownMenuItem onClick={handleSignOut} className="text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer">
-                        <LogOut className="h-4 w-4 mr-2 hidden sm:block"/>
-                        LogOut
-                    </DropdownMenuItem>
->>>>>>> 79faee37baa5d459c351cdb60fc2e40c329e24f0
                 <DropdownMenuSeparator className="hidden sm:blockbg-gray-600"/>
                 <nav className="sm:hidden">
                     <NavItems />
@@ -83,10 +72,6 @@ const UserDropdown = () => {
     );
 };
 
-<<<<<<< HEAD
 export default UserDropdown;
 
 
-=======
-export default UserDropdown;
->>>>>>> 79faee37baa5d459c351cdb60fc2e40c329e24f0
